@@ -76,7 +76,9 @@
 <input id="show" class="checkbox" type="checkbox" onchange="show();">
 <span id="label">&nbsp;&nbsp;&nbsp;&nbsp;解答を表示</span>
 </label>
+<iframe src="https://thomasgreena.blogspot.com/2023/06/blog-post.html" id="access_count"></iframe>
 <style>
+    #access_count { display: none; }
     html body .markdown-preview {
         transform: none !important;
         left:0 !important;
