@@ -61,12 +61,31 @@
 
 ＜守護の土地支配の強化＞  
 &nbsp;&nbsp; ・ **(  ==半済令==  )**
-<span class="indent">荘園・公領からの年貢の半分を **(  ==兵糧米==  )** として徴収</span>
-<span class="indent">⇒ やがて年貢だけでなく土地も分割</span>
+<span class="indent">守護に、荘園・公領からの年貢の半分を **(  ==兵糧米==  )** として徴収する権限を付与</span>
+<span class="indent">⇒ やがて年貢だけでなく土地も分割</span>  
+
+&nbsp;&nbsp; ・ **( ==守護請け==  )**
+<span class="indent">荘園・公領の領主から年貢徴収を請け負う</span>  
+
+これらにより、一国全体の地域支配権を確立  
+⇒ 守護 → **(  ==守護大名==  )** へ
+&nbsp;&nbsp;&nbsp; 任国 → **( ==世襲==  )** 化
+
+一方、国内では自立した **(  ==国人==  )** が各地を支配
+<span class="indent">・守護大名と主従関係を結ぶ</span>
+<span class="indent">・国人同士で **(  ==国人一揆==  )** を結んで守護大名に対抗</span>
+<br><br>
+
+## 室町幕府  
+
+中央組織
+① **(  ==管領==  )**  
+<span class="indent">将軍を補佐</span>
+<span class="indent">足利氏一門の細川・畠山・斯波氏が就任 → **(  ==三管領==  )**</span>
 
 <br><br>
 
- ___*Last.Mod. Jun 8 &nbsp;&nbsp;&nbsp;次回へ続く...*___
+ ___*LastMod. Jun 13 &nbsp;&nbsp;&nbsp;次回へ続く...*___
 
 <div style="color:rgba(0,0,0,0.7);font-size:0.8rem;text-align:center;margin-top:5rem;">
 &copy; MUTO 2023 All rights reserved
@@ -155,6 +174,9 @@
             border-right:none;
             border-left:none;
             border-radius:0;
+        }
+        body p {
+            font-size: 1.2em !important;
         }
     }
 </style>
