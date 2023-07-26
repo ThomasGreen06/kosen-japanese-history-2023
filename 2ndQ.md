@@ -359,6 +359,11 @@
  *last mod. Jul 21 &nbsp;&nbsp;&nbsp;<small>次回へ続く？</small>*
 
 <br>
+<br>
+
+[2ndQ日本史試験対策 印刷用PDF（解答なし）](./2ndQ.pdf)
+
+<br>
 
 >修正は [GitHub#issues](https://github.com/ThomasGreen06/kosen-japanese-history-2023/issues) から
 
@@ -465,9 +470,9 @@
         history.replaceState(null, '', "index.html");
     }
     const css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.href = './default.css';
-    css.type = 'text/css';
+    css.rel = 'shortcut icon';
+    css.href = './favicon.ico';
+    css.type = 'image/x-icon';
     const head = document.getElementsByTagName('head')[0];
     head.appendChild(css);
 </script>
