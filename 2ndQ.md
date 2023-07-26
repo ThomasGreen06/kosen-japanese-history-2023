@@ -108,8 +108,8 @@
 <span class="indent">貿易は幕府のみ → 応仁の乱後、細川、大内氏へ</span>
 
 ・ **( ==日朝貿易== )**
-<span class="indent">1392年　朝鮮建国（季朝）</span>
-<span class="indent">**( ==李成桂== )** 倭寇撃退に活躍</span>
+<span class="indent">1392年　朝鮮建国（李朝）</span>
+<span class="indent">**( ==李成桂== )** 倭寇撃退に活躍 （ *漢字注意 !!*  　× 季　◎ 李） </span>
 
 明、朝鮮ともに **( ==足利義満== )** が国交を開いた
 <br><br>
