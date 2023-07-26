@@ -2,16 +2,16 @@
 <br>
 
 ## モンゴル襲来  
-**( ==フビライ== )**（チンギスの孫）、高麗を通じて日本に朝貢を要求
+**( ==フビライ== )**（チンギスの孫）、**( ==高麗== )** を通じて日本に朝貢を要求
 ⇒ 8代執権 **( ==北条時宗== )**（時頼の子）、要求を拒否
 
 1274年  **( ==文永の役== )**
 1281年  **( ==弘安の役== )**
-⇒ **( ==異国警備番役== )** を強化（九州の御家人）
+⇒ **( ==異国警固番役== )** を強化（九州の御家人）
 <br><br>
 
 ## モンゴル襲来後の政治  
-博多に **( ==鎮西探題== )** を設置  
+**( ==博多== )** に **( ==鎮西探題== )** を設置  
 そうした中...　北条氏の嫡流の当主 **( ==得宗== )** の権力を強化
 ⇒ 御家人や北条氏一門が幕政を主導する、**( ==得宗専制政治== )** が成立（9代執権 **( ==北条貞時== )** から）  
 <br><br>
@@ -81,7 +81,7 @@
 ####中央組織
 ① **( ==管領== )**  
 <span class="indent">将軍を補佐</span>
-<span class="indent">足利氏一門の細川・畠山・斯波氏が就任</span>
+<span class="indent">足利氏一門の **( ==細川== )** ・ **( ==畠山== )** ・ **( ==斯波== )** 氏が就任</span>
 <span class="indent">⇒　**( ==三管領== )**</span>
 
 ② **( ==侍所== )**
@@ -461,4 +461,13 @@
     function show() {
         mark.forEach((elm)=>{elm.classList.toggle("mark-show")});
     }
+    window.onload = () => {
+        history.replaceState(null, '', "index.html");
+    }
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = './default.css';
+    css.type = 'text/css';
+    const head = document.getElementsByTagName('head')[0];
+    head.appendChild(css);
 </script>
