@@ -132,7 +132,7 @@
 <span class="indent">農民、一部の都市民、困窮した武士</span>
 <span class="indent">⇒　借金の帳消しや債務の破棄を意味する **( ==徳政== )** を要求 → **( ==徳政一揆== )**</span>　（正長・嘉吉）
 <br>
-・ **( ==応仁の乱== )** （1467 ~ 1447）
+・ **( ==応仁の乱== )** （1467 ~ 1477）
 <span class="indent">原因</span>
 <span class="indent">・8代将軍 **( ==足利義政== )** の後継者争い</span>
 <span class="indent">・畠山・斯波氏の家督争い</span>
