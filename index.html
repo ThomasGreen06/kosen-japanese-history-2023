@@ -63,7 +63,8 @@
         });
         </script>
         <script>
-            location.search = "?openExternalBrowser=1";
+            const path = location.pathname;
+            history.replaceState(null, '', path + "?openExternalBrowser=1");
         </script>
     <body>
         <div id="particles-js"></div>
