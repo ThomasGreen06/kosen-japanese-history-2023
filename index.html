@@ -10,12 +10,15 @@
         <meta property="og:site_name" content="日本史" />
         <meta property="og:image" content="https://thomasgreen06.github.io/kosen-japanese-history-2023/logo.png" />
         <title>日本史</title>
+        <link rel="manifest" href="/manifest.json">
+        <!--
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap&text=【令和最新版】" rel="stylesheet">
+        -->
         <style>
             body {
-                padding: 1rem;
+                height: 100%;
             }
             h1{
                 margin: 3rem 0;
@@ -23,25 +26,58 @@
             h2 {
                 margin-top: 3rem;
             }
+            #particles-js {
+                position: fixed;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                top: 0; bottom: 0;
+            }
+            #wrapper {
+                padding: 1rem;
+                position: relative;
+                z-index: 100;
+                background-color: rgba(255, 255, 255, 0);
+            }
+            /*
             #reiwa {
                 font-family: 'Noto Sans HK', sans-serif;
                 font-family: 'Noto Serif TC', serif;
+                font-size: 40%;
             }
+            */
         </style>
     </head>
+    <script src="particles.js-master/particles.min.js" defer></script>
+    <script src="my-particles.js" defer></script>
     <script>
-        //location.href="2ndQ.html";
-    </script>
+        window.addEventListener('load', function() {
+         if ('serviceWorker' in navigator) {
+         navigator.serviceWorker.register("/serviceWorker.js")
+         .then(function(registration) {
+         console.log("serviceWorker registed.");
+         }).catch(function(error) {
+         console.warn("serviceWorker error.", error);
+         });
+         }
+        });
+        </script>
     <body>
-        <h1><span id="reiwa">【令和最新版】</span>日本史試験対策</h1>
-        <h2>Latest Posts</h2>
-        <div>
-            <a href="3rdQ.html">3rdQ.html</a>
-        </div>
-
-        <h2>Archives</h2>
-        <div>
-            <a href="2ndQ.html">2ndQ.html</a>
+        <div id="particles-js"></div>
+        <div id="wrapper">
+            <!--
+                <p id="reiwa">【令和最新版】</p>
+            -->
+            <h1>日本史試験対策</h1>
+            <h2>Latest Posts</h2>
+            <div>
+                <a href="3rdQ.html">【後期中間】3rdQ.html</a>
+            </div>
+        
+            <h2>Archives</h2>
+            <div>
+                <a href="2ndQ.html">【前記期末】2ndQ.html</a>
+            </div>
         </div>
     </body>
 </html>
