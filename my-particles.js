@@ -1,7 +1,7 @@
 particlesJS("particles-js",{
 	"particles":{
 		"number":{
-			"value":100,
+			"value":8,
 			"density":{
 				"enable":false,
 				"value_area":400
@@ -34,7 +34,7 @@ particlesJS("particles-js",{
 				"random":true,//サイズをランダムに
 				"anim":{
 					"enable":true,
-					"speed":1.345709068776642,
+					"speed":0.5,
 					"size_min":0.8,
 					"sync":false
 				}

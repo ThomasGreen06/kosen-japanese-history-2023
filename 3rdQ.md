@@ -289,129 +289,21 @@
 
 
 
-
-
-
-
-
-
-
 <br><br>
- *last mod. Oct. 24, 2023*
-
-<br>
-<br>
-
-
+<p><a id="print-noanswer" class="print" href="javascript:void(0);"></a></p>
+<p><a id="print-answer" class="print" href="javascript:void(0);"></a></p>
 <br>
 
 >修正は [GitHub#issues](https://github.com/ThomasGreen06/kosen-japanese-history-2023/issues) から
 
-
 <div style="color:rgba(0,0,0,0.7);font-size:0.8rem;text-align:center;margin-top:5rem;">
-&copy; mt 2023 All rights reserved
+    &copy; mt 2024 All rights reserved
 </div>
 <div id="space"></div>
 <label id="o-header" for="show">
-<input id="show" class="checkbox" type="checkbox" onchange="show();">
-<span id="label">&nbsp;&nbsp;&nbsp;&nbsp;解答を表示</span>
+        <input id="show" class="checkbox" type="checkbox" onchange="show();">
+    <span id="label">&nbsp;&nbsp;&nbsp;&nbsp;解答を全て表示</span>
 </label>
-<iframe src="https://thomasgreena.blogspot.com/2023/06/blog-post.html" id="access_count"></iframe>
-<style>
-    #access_count { display: none; }
-    html body .markdown-preview {
-        transform: none !important;
-        left:0 !important;
-    }
-    .indent {
-        padding-left:2em;
-    }
-    body p {
-        font-size: 1.1em !important;
-        line-height: 1.8em !important;
-    }
-    @media screen and (min-width: 914px) {
-        html body .markdown-preview {
-            padding: 2em 10% !important;
-        }
-        body p {
-            font-size: 1.4rem !important;
-        }
-    }
-    #space {height: 6rem;}
-    #o-header {
-        position: fixed;
-        top:80px; right:5%; 
-        padding:1rem 1.75rem 1rem 2.5rem;
-        border-radius: 3rem;
-        border: 2px solid rgba(0,0,0,0.2);
-        background-color:#fff; 
-    }
-    mark {
-        color: white;
-        background-color: white;
-    }
-    .mark-show {
-        color: #F06060;
-    }
-    #label {
-        position: relative;
-        cursor: pointer;
-        font-size: 1.2rem;
-    }
-    #label::before {
-        content: "";
-        display: inline-block;
-        width: 1em; height: 1em;
-        border: 2px solid rgba(0, 0, 0, 0.6);
-        border-radius: 5px;
-        position: absolute; top:0; left:0;
-        transform: translate(-40%, -1px);
-        z-index: 1;
-    }
-    #label::after {
-        content: "";
-        border-bottom: 5px solid #fff;
-        border-left: 5px solid #fff;
-        opacity: 0;
-        height: 0.38em; width: 0.78em;
-        position: absolute; top:0; left:0;
-        transform: translate(-37%, 3px) rotate(-45deg);
-        z-index: 10;
-    }
-    #show {display: none;}
-    #show:checked ~ #label::before {
-        background-color: #6bbaf0;
-        border: 2px solid rgba(0, 0, 0, .08627);
-    }
-    #show:checked ~ #label::after {
-        opacity: 1;
-    }
-    @media screen and (max-width: 480px) {
-        #o-header {
-            bottom:0; left:0; right:0; top:90%;
-            text-align:center;
-            background-color:#fff;
-            border-top: 2px solid rgba(0,0,0,0.2);
-            padding-top: 1rem;
-            border-bottom:none;
-            border-right:none;
-            border-left:none;
-            border-radius:0;
-        }
-    }
-</style>
-<script defer>
-    const mark = document.querySelectorAll("mark");
-    function show() {
-        mark.forEach((elm)=>{elm.classList.toggle("mark-show")});
-    }
-    window.onload = () => {
-        history.replaceState(null, '', "index.html");
-    }
-    const css = document.createElement('link');
-    css.rel = "stylesheet";
-    css.href = 'default.css';
-    const head = document.getElementsByTagName('head')[0];
-    head.appendChild(css);
-</script>
+<!-- access counter -->
+<iframe style="width:0px;height:0px;opacity:0;" src="https://thomasgreena.blogspot.com/2023/06/blog-post.html" id="access_count"></iframe>
+<script defer src="main.js"></script>
