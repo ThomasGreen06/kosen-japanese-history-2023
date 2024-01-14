@@ -13,6 +13,7 @@ body p {
 mark {
     font-size: 110%;
     padding: 0 0.2em;
+    white-space: nowrap;
 }
 @media screen and (min-width: 914px) {
     html body .markdown-preview {
