@@ -15,6 +15,9 @@ mark {
     padding: 0 0.2em;
     white-space: nowrap;
 }
+strong {
+    display: inline-block;
+}
 @media screen and (min-width: 914px) {
     html body .markdown-preview {
         padding: 2em 10% !important;
